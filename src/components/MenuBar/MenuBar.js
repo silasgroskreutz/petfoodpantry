@@ -7,7 +7,7 @@ class MenuBar extends React.Component{
         return (
             <header>
                 <img alt="pawprint" className="logo" src={pawprint} />
-                    <h1>Pet Food Pantry</h1>
+                    <span>Pet Food Pantry</span>
             </header>
         )
     }
