@@ -1,9 +1,12 @@
 import React from 'react';
+import './SearchBar.css';
 
 class SearchBar extends React.Component {
     render() {
       return (
-        <form>
+        <form className="Search">
+          <button className="addbutton">Add item to Inventory</button>
+
           <input type="text" placeholder="Search by -->" />
           <select id = "myList">
                <option value = "1">Brand</option>

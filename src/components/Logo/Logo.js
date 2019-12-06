@@ -1,8 +1,8 @@
 import React from 'react';
-import './MenuBar.css';
+import './Logo.css';
 import pawprint from "./pawprint.png";
 
-class MenuBar extends React.Component{ 
+class Logo extends React.Component{ 
     render() {
         return (
             <header>
@@ -13,4 +13,4 @@ class MenuBar extends React.Component{
     }
 }
 
-export default MenuBar;
+export default Logo;
