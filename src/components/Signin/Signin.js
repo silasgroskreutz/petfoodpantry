@@ -1,4 +1,5 @@
 import React from 'react';
+import './Signin.css';
 
 class Signin extends React.Component {
   constructor(props) {
@@ -44,7 +45,7 @@ class Signin extends React.Component {
             <fieldset id="sign_up">
               <legend>Sign In</legend>
               <div>
-                <label htmlFor="email-address">Email</label>
+                <label htmlFor="email-address">Email : </label>
                 <input
                   type="email"
                   name="email-address"
@@ -53,7 +54,7 @@ class Signin extends React.Component {
                 />
               </div>
               <div>
-                <label htmlFor="password">Password</label>
+                <label htmlFor="password">Password : </label>
                 <input
                   type="password"
                   name="password"

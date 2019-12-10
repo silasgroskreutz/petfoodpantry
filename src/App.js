@@ -10,11 +10,14 @@ import Editinventory from './components/Editinventory/Editinventory';
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      route: 'signin'
-    }
+    this.state = { displayAddInv: false }
   }
 
+  _displayAddInv = (bool) => {
+    this.setState({
+      displayAddInv: !this.state.displayAddInv
+    })
+  }
 
   render() {
     return (
@@ -22,10 +25,8 @@ class App extends Component {
         <Logo />
         <Navigation />
         <SearchBar />
-        <Inventory />
-        <Signin />
         <Addinventory />
-        <Editinventory />
+        <Inventory />
       </div>
       );
   }

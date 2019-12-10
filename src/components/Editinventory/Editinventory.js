@@ -56,6 +56,10 @@ render() {
                 />
                 <label htmlFor="Rx">False</label>
               </div>
+              <input
+              type="submit"
+              value="Edit picture"
+              />
             
             <div className="submission">
               <input

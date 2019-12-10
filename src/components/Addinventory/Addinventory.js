@@ -41,22 +41,10 @@ render() {
                   id="Size"
                 />
               </div>
-              <div>
-                <label htmlFor="Rx">Rx required : </label>
-                <input
-                  type="radio"
-                  name="true"
-                  id="true"
-                />
-                <label htmlFor="Rx">True</label>
-                <input
-                  type="radio"
-                  name="false"
-                  id="false"
-                />
-                <label htmlFor="Rx">False</label>
-              </div>
-            
+            <input
+              type="submit"
+              value="Add picture"
+              />
             <div className="submission">
               <input
                 type="submit"
